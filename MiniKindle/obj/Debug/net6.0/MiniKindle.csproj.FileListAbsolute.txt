@@ -1,0 +1,15 @@
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\bin\Debug\net6.0\MiniKindle.exe
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\bin\Debug\net6.0\MiniKindle.deps.json
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\bin\Debug\net6.0\MiniKindle.runtimeconfig.json
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\bin\Debug\net6.0\MiniKindle.dll
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\bin\Debug\net6.0\MiniKindle.pdb
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\obj\Debug\net6.0\MiniKindle.csproj.AssemblyReference.cache
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\obj\Debug\net6.0\MiniKindle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\obj\Debug\net6.0\MiniKindle.AssemblyInfoInputs.cache
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\obj\Debug\net6.0\MiniKindle.AssemblyInfo.cs
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\obj\Debug\net6.0\MiniKindle.csproj.CoreCompileInputs.cache
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\obj\Debug\net6.0\MiniKindle.dll
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\obj\Debug\net6.0\refint\MiniKindle.dll
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\obj\Debug\net6.0\MiniKindle.pdb
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\obj\Debug\net6.0\MiniKindle.genruntimeconfig.cache
+C:\Users\WorkPC\Documents\K-State\Fall 2022\CIS 501\MiniKindle\MiniKindle\obj\Debug\net6.0\ref\MiniKindle.dll
