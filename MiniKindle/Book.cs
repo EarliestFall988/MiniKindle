@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace MiniKindle
 {
+    /// <summary>
+    /// A class representing a book
+    /// </summary>
     public class Book : IEquatable<Book>, IComparable<Book>
     {
         /// <summary>
@@ -38,6 +41,14 @@ namespace MiniKindle
         /// </summary>
         [JsonPropertyName("book-marks")]
         public List<BookMark> BookMarks { get; set; } = new List<BookMark>();
+
+        /// <summary>
+        /// The book
+        /// </summary>
+        public Book()
+        {
+
+        }
 
         /// <summary>
         /// Get current page
