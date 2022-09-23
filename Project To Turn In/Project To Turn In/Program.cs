@@ -16,7 +16,25 @@ namespace Project_To_Turn_In
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            Book book = new Book();
+
+            Page page1 = new Page();
+            Page page2 = new Page();
+            Page page3 = new Page();
+
+            page1.Words = "Page one";
+            book.Pages.Add(page1);
+
+            page2.Words = "Page two";
+            book.Pages.Add(page2);
+            
+
+            book.Pages.Add(page3);
+
+            BookController bc = new BookController();
+
+            Application.Run(new BookView(bc, book));
         }
     }
 }

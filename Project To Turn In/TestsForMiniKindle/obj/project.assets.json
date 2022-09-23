@@ -3526,11 +3526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj",
+      "projectUniqueName": "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj",
       "projectName": "TestsForMiniKindle",
-      "projectPath": "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj",
+      "projectPath": "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj",
       "packagesPath": "C:\\Users\\maxfl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\obj\\",
+      "outputPath": "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3550,8 +3550,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj": {
-              "projectPath": "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj"
+            "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj": {
+              "projectPath": "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj"
             }
           }
         }

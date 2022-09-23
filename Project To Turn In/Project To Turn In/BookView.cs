@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MiniKindleForm
+namespace Project_To_Turn_In
 {
     public partial class BookView : Form
     {
@@ -138,6 +138,11 @@ namespace MiniKindleForm
         {
             book.CurrentPage = Int32.Parse(uxPgNum.Value.ToString());
             addTextToTextBox();
+        }
+
+        private void uxTitleTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

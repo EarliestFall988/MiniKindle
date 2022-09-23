@@ -1,5 +1,5 @@
 ﻿
-namespace MiniKindleForm
+namespace Project_To_Turn_In
 {
     partial class BookView
     {
@@ -95,6 +95,7 @@ namespace MiniKindleForm
             this.uxTitleTextBox.ReadOnly = true;
             this.uxTitleTextBox.Size = new System.Drawing.Size(601, 57);
             this.uxTitleTextBox.TabIndex = 5;
+            this.uxTitleTextBox.TextChanged += new System.EventHandler(this.uxTitleTextBox_TextChanged);
             // 
             // uxBookMarked
             // 

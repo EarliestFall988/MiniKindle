@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9GNRK11YN1agG3MYVQV+erD4B3F562a4Xow59UOTmc+RX2A0NCXaQz48BbbW4SChPGcCJsTYrS/tcQ2iLvsbFg==",
+  "dgSpecHash": "/4uxXtoMHBWcLmF1Qyzn8IOuE+TuT7MwZ3hndC7lWq0SG8VMNXJwfVEk7buHw5Rl3mIr3PpNBwAKy90k8xV1IA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj",
+  "projectFilePath": "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maxfl\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\maxfl\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
