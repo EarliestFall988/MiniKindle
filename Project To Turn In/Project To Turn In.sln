@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project To Turn In", "Project To Turn In\Project To Turn In.csproj", "{28776310-7FE1-4AC5-BF85-D7FA9F09F440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsForMiniKindle", "TestsForMiniKindle\TestsForMiniKindle.csproj", "{7471BE7B-8E34-4E88-99E1-5B2922EA919D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28776310-7FE1-4AC5-BF85-D7FA9F09F440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28776310-7FE1-4AC5-BF85-D7FA9F09F440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28776310-7FE1-4AC5-BF85-D7FA9F09F440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28776310-7FE1-4AC5-BF85-D7FA9F09F440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7471BE7B-8E34-4E88-99E1-5B2922EA919D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7471BE7B-8E34-4E88-99E1-5B2922EA919D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7471BE7B-8E34-4E88-99E1-5B2922EA919D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7471BE7B-8E34-4E88-99E1-5B2922EA919D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3325A89-5E97-4476-BFC8-72C16FC22613}
+	EndGlobalSection
+EndGlobal
