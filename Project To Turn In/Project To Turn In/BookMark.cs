@@ -22,5 +22,19 @@ namespace Project_To_Turn_In
         {
             BookMarkLocation = location;
         }
+
+        public override string ToString()
+        {
+            return "BookMark at " + BookMarkLocation;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if(this.ToString() == obj.ToString())
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
