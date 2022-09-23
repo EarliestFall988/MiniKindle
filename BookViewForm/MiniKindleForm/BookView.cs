@@ -33,14 +33,17 @@ namespace MiniKindleForm
             BookController = c;
             book = b;
             addTextToTextBox();
+            addTitleToTextBox();
+            uxPgNum.Maximum = book.Pages.Count() -1;
+            uxPgNum.Minimum = 0;
         }
 
         /// <summary>
         /// This method adds header text to header txt box
         /// </summary>
-        private void addHeaderToTextBox()
+        private void addTitleToTextBox()
         {
-            uxHeaderTextBox.Text = book.Pages[book.CurrentPage].PageHeader.ToString();
+            uxTitleTextBox.Text = book.Title.ToString();
         }
 
         /// <summary>
@@ -58,9 +61,24 @@ namespace MiniKindleForm
         /// <param name="e"></param>
         private void uxNextBtn_Click(object sender, EventArgs e)
         {
-            if(book.CurrentPage != book.Pages.Count())
+            if(book.CurrentPage != book.Pages.Count() - 1)
             {
                 book.CurrentPage += 1;
+                addTextToTextBox();
+                uxPreviousBtn.Enabled = true;
+                if((book.CurrentPage == book.Pages.Count() - 1))
+                {
+                    uxNextBtn.Enabled = false;
+                }
+                object BookMark = new BookMark(book.CurrentPage);
+                if (book.BookMarks.Contains(BookMark))
+                {
+                    uxBookMarked.Text = "BookMarked";
+                }
+                else
+                {
+                    uxBookMarked.Text = "";
+                }
             }
         }
         /// <summary>
@@ -73,14 +91,53 @@ namespace MiniKindleForm
         {
             if(book.CurrentPage != 0)
             {
-                book.CurrentPage += 1;
+                book.CurrentPage -= 1;
+                addTextToTextBox();
+                uxNextBtn.Enabled = true;
+                if (book.CurrentPage == 0)
+                {
+                    uxPreviousBtn.Enabled = false;
+                }
+                object BookMark = new BookMark(book.CurrentPage);
+                if (book.BookMarks.Contains(BookMark))
+                {
+                    uxBookMarked.Text = "BookMarked";
+                }
+                else
+                {
+                    uxBookMarked.Text = "";
+                }
             }
         }
 
+        /// <summary>
+        /// Method to add book mark when btn clicked
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void uxBookMark_Click(object sender, EventArgs e)
         {
             BookMark bm = new BookMark(book.CurrentPage);
             book.BookMarks.Add(bm);
+            if(uxBookMarked.Text == "BookMarked")
+            {
+                uxBookMarked.Text = "";
+            }
+            else
+            {
+                uxBookMarked.Text = "BookMarked";
+            }
+        }
+
+        /// <summary>
+        /// Changes page when the up down is changed
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void uxPgNum_ValueChanged(object sender, EventArgs e)
+        {
+            book.CurrentPage = Int32.Parse(uxPgNum.Value.ToString());
+            addTextToTextBox();
         }
     }
 }

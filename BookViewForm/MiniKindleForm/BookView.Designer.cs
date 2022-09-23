@@ -34,7 +34,8 @@ namespace MiniKindleForm
             this.uxPgNum = new System.Windows.Forms.NumericUpDown();
             this.uxTextBox = new System.Windows.Forms.TextBox();
             this.uxBookMark = new System.Windows.Forms.Button();
-            this.uxHeaderTextBox = new System.Windows.Forms.TextBox();
+            this.uxTitleTextBox = new System.Windows.Forms.TextBox();
+            this.uxBookMarked = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.uxPgNum)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,6 +51,7 @@ namespace MiniKindleForm
             // 
             // uxPreviousBtn
             // 
+            this.uxPreviousBtn.Enabled = false;
             this.uxPreviousBtn.Location = new System.Drawing.Point(12, 607);
             this.uxPreviousBtn.Name = "uxPreviousBtn";
             this.uxPreviousBtn.Size = new System.Drawing.Size(171, 86);
@@ -64,12 +66,14 @@ namespace MiniKindleForm
             this.uxPgNum.Name = "uxPgNum";
             this.uxPgNum.Size = new System.Drawing.Size(54, 26);
             this.uxPgNum.TabIndex = 2;
+            this.uxPgNum.ValueChanged += new System.EventHandler(this.uxPgNum_ValueChanged);
             // 
             // uxTextBox
             // 
             this.uxTextBox.Location = new System.Drawing.Point(12, 121);
             this.uxTextBox.Multiline = true;
             this.uxTextBox.Name = "uxTextBox";
+            this.uxTextBox.ReadOnly = true;
             this.uxTextBox.Size = new System.Drawing.Size(601, 480);
             this.uxTextBox.TabIndex = 3;
             // 
@@ -83,20 +87,32 @@ namespace MiniKindleForm
             this.uxBookMark.UseVisualStyleBackColor = true;
             this.uxBookMark.Click += new System.EventHandler(this.uxBookMark_Click);
             // 
-            // uxHeaderTextBox
+            // uxTitleTextBox
             // 
-            this.uxHeaderTextBox.Location = new System.Drawing.Point(12, 29);
-            this.uxHeaderTextBox.Multiline = true;
-            this.uxHeaderTextBox.Name = "uxHeaderTextBox";
-            this.uxHeaderTextBox.Size = new System.Drawing.Size(601, 57);
-            this.uxHeaderTextBox.TabIndex = 5;
+            this.uxTitleTextBox.Location = new System.Drawing.Point(12, 29);
+            this.uxTitleTextBox.Multiline = true;
+            this.uxTitleTextBox.Name = "uxTitleTextBox";
+            this.uxTitleTextBox.ReadOnly = true;
+            this.uxTitleTextBox.Size = new System.Drawing.Size(601, 57);
+            this.uxTitleTextBox.TabIndex = 5;
+            // 
+            // uxBookMarked
+            // 
+            this.uxBookMarked.Location = new System.Drawing.Point(508, 92);
+            this.uxBookMarked.Multiline = true;
+            this.uxBookMarked.Name = "uxBookMarked";
+            this.uxBookMarked.ReadOnly = true;
+            this.uxBookMarked.Size = new System.Drawing.Size(105, 23);
+            this.uxBookMarked.TabIndex = 6;
+            this.uxBookMarked.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // BookView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(625, 705);
-            this.Controls.Add(this.uxHeaderTextBox);
+            this.Controls.Add(this.uxBookMarked);
+            this.Controls.Add(this.uxTitleTextBox);
             this.Controls.Add(this.uxBookMark);
             this.Controls.Add(this.uxTextBox);
             this.Controls.Add(this.uxPgNum);
@@ -117,7 +133,8 @@ namespace MiniKindleForm
         private System.Windows.Forms.NumericUpDown uxPgNum;
         private System.Windows.Forms.TextBox uxTextBox;
         private System.Windows.Forms.Button uxBookMark;
-        private System.Windows.Forms.TextBox uxHeaderTextBox;
+        private System.Windows.Forms.TextBox uxTitleTextBox;
+        private System.Windows.Forms.TextBox uxBookMarked;
     }
 }
 
