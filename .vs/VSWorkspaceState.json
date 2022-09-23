@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MiniKindleForm\\MiniKindleForm"
+    "\\BookViewForm",
+    "\\MiniKindle",
+    "\\MiniKindleUserInterface"
   ],
-  "SelectedNode": "\\MiniKindle.sln",
+  "SelectedNode": "\\BookViewForm\\BookViewForm.sln",
   "PreviewInSolutionExplorer": false
 }
