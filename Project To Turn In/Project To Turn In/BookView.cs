@@ -117,15 +117,19 @@ namespace Project_To_Turn_In
         /// <param name="e"></param>
         private void uxBookMark_Click(object sender, EventArgs e)
         {
-            BookMark bm = new BookMark(book.CurrentPage);
-            book.BookMarks.Add(bm);
-            if(uxBookMarked.Text == "BookMarked")
+            
+            if(uxBookMarked.Text == "")
             {
-                uxBookMarked.Text = "";
+                BookMark bm = new BookMark(book.CurrentPage);
+                book.BookMarks.Add(bm);
+                uxBookMarked.Text = "BookMarked";
             }
             else
             {
-                uxBookMarked.Text = "BookMarked";
+                BookMark bm = new BookMark(book.CurrentPage);
+                int index = book.BookMarks.IndexOf(bm);
+                book.BookMarks.RemoveAt(index);
+                uxBookMarked.Text = "";
             }
         }
 
