@@ -50,6 +50,11 @@ namespace Project_To_Turn_In
 
         }
 
+        public override string ToString()
+        {
+            return Title;
+        }
+
         /// <summary>
         /// Get current page
         /// </summary>

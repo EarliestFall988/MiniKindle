@@ -27,3 +27,4 @@ C:\Users\maxfl\Source\Repos\MiniKindle\Project To Turn In\Project To Turn In\obj
 C:\Users\maxfl\Source\Repos\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.csproj.CopyComplete
 C:\Users\maxfl\Source\Repos\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.exe
 C:\Users\maxfl\Source\Repos\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.pdb
+C:\Users\maxfl\Source\Repos\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project_To_Turn_In.LibraryView.resources

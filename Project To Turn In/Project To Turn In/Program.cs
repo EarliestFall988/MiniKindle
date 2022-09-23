@@ -32,9 +32,13 @@ namespace Project_To_Turn_In
 
             book.Pages.Add(page3);
 
+            book.Title = "COOL BOOK";
+
             BookController bc = new BookController();
 
-            Application.Run(new BookView(bc, book));
+            bc.AddBook(book);
+
+            Application.Run(new LibraryView(bc));
         }
     }
 }
