@@ -1,45 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
-      "MiniKindle/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MiniKindle.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MiniKindle.dll": {}
-        }
-      }
-    }
+    "net6.0-windows7.0": {}
   },
-  "libraries": {
-    "MiniKindle/1.0.0": {
-      "type": "project",
-      "path": "../MiniKindle/MiniKindle.csproj",
-      "msbuildProject": "../MiniKindle/MiniKindle.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
-      "MiniKindle >= 1.0.0"
-    ]
+    "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\howel\\.nuget\\packages\\": {}
+    "C:\\Users\\maxfl\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\MiniKindleForms\\MiniKindleForms.csproj",
+      "projectUniqueName": "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\MiniKindleForms\\MiniKindleForms.csproj",
       "projectName": "MiniKindleForms",
-      "projectPath": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\MiniKindleForms\\MiniKindleForms.csproj",
-      "packagesPath": "C:\\Users\\howel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\MiniKindleForms\\obj\\",
+      "projectPath": "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\MiniKindleForms\\MiniKindleForms.csproj",
+      "packagesPath": "C:\\Users\\maxfl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\MiniKindleForms\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\howel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maxfl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,11 +37,7 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {
-            "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\MiniKindle\\MiniKindle.csproj": {
-              "projectPath": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\MiniKindle\\MiniKindle.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -78,15 +59,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }
