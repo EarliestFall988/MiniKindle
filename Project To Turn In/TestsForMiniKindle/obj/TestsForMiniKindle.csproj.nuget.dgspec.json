@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj": {}
+    "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj": {
+    "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj",
+        "projectUniqueName": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj",
         "projectName": "Project To Turn In",
-        "projectPath": "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj",
+        "projectPath": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,20 +19,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj": {
+    "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj",
+        "projectUniqueName": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj",
         "projectName": "TestsForMiniKindle",
-        "projectPath": "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj",
-        "packagesPath": "C:\\Users\\maxfl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\obj\\",
+        "projectPath": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\TestsForMiniKindle.csproj",
+        "packagesPath": "C:\\Users\\howel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\Project To Turn In\\TestsForMiniKindle\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\maxfl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\howel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,8 +43,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj": {
-                "projectPath": "C:\\Users\\maxfl\\Source\\Repos\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj"
+              "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj": {
+                "projectPath": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\Project To Turn In\\Project To Turn In\\Project To Turn In.csproj"
               }
             }
           }
@@ -94,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

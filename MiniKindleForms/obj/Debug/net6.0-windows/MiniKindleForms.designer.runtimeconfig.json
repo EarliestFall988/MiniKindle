@@ -1,10 +1,19 @@
 {
   "runtimeOptions": {
     "tfm": "net6.0",
+    "frameworks": [
+      {
+        "name": "Microsoft.NETCore.App",
+        "version": "6.0.0"
+      },
+      {
+        "name": "Microsoft.WindowsDesktop.App",
+        "version": "6.0.0"
+      }
+    ],
     "additionalProbingPaths": [
-      "C:\\Users\\maxfl\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\maxfl\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Users\\howel\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\howel\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

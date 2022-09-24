@@ -8,23 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\maxfl\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\howel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\MiniKindle\\MiniKindle.csproj",
+      "projectUniqueName": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\MiniKindle\\MiniKindle.csproj",
       "projectName": "MiniKindle",
-      "projectPath": "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\MiniKindle\\MiniKindle.csproj",
-      "packagesPath": "C:\\Users\\maxfl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maxfl\\source\\repos\\MiniKindle\\MiniKindle\\obj\\",
+      "projectPath": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\MiniKindle\\MiniKindle.csproj",
+      "packagesPath": "C:\\Users\\howel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\howel\\Documents\\K-State\\Fall 2022\\501\\MiniKindle\\MiniKindle\\MiniKindle\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\maxfl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\howel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -59,7 +55,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

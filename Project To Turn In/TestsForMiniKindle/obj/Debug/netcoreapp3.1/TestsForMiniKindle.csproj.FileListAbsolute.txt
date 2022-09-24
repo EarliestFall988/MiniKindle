@@ -1,0 +1,5 @@
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\TestsForMiniKindle\obj\Debug\netcoreapp3.1\TestsForMiniKindle.csproj.AssemblyReference.cache
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\TestsForMiniKindle\obj\Debug\netcoreapp3.1\TestsForMiniKindle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\TestsForMiniKindle\obj\Debug\netcoreapp3.1\TestsForMiniKindle.AssemblyInfoInputs.cache
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\TestsForMiniKindle\obj\Debug\netcoreapp3.1\TestsForMiniKindle.AssemblyInfo.cs
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\TestsForMiniKindle\obj\Debug\netcoreapp3.1\TestsForMiniKindle.csproj.CoreCompileInputs.cache

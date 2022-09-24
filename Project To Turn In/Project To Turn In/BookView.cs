@@ -66,10 +66,7 @@ namespace Project_To_Turn_In
                 book.CurrentPage += 1;
                 addTextToTextBox();
                 uxPreviousBtn.Enabled = true;
-                if((book.CurrentPage == book.Pages.Count() - 1))
-                {
-                    uxNextBtn.Enabled = false;
-                }
+                
                 object BookMark = new BookMark(book.CurrentPage);
                 if (book.BookMarks.Contains(BookMark))
                 {
@@ -79,6 +76,21 @@ namespace Project_To_Turn_In
                 {
                     uxBookMarked.Text = "";
                 }
+            }
+
+            if ((book.CurrentPage == book.Pages.Count() - 1))
+            {
+                uxNextBtn.Enabled = false;
+            }
+
+
+            if (book.TryGetCurrentPage(out var page))
+            {
+
+                if (book.CurrentPage >= 0 && book.CurrentPage < book.Pages.Count)
+                    BookController.SetCurrentPage(book, page);
+
+                uxPgNum.Value = book.CurrentPage;
             }
         }
         /// <summary>
@@ -108,6 +120,15 @@ namespace Project_To_Turn_In
                     uxBookMarked.Text = "";
                 }
             }
+
+            if (book.TryGetCurrentPage(out var page))
+            {
+
+                if (book.CurrentPage >= 0 && book.CurrentPage < book.Pages.Count)
+                    BookController.SetCurrentPage(book, page);
+            }
+
+            uxPgNum.Value = book.CurrentPage;
         }
 
         /// <summary>
@@ -123,6 +144,8 @@ namespace Project_To_Turn_In
                 BookMark bm = new BookMark(book.CurrentPage);
                 book.BookMarks.Add(bm);
                 uxBookMarked.Text = "BookMarked";
+
+                
             }
             else
             {
@@ -131,6 +154,8 @@ namespace Project_To_Turn_In
                 book.BookMarks.RemoveAt(index);
                 uxBookMarked.Text = "";
             }
+
+            BookController.UpdateBook(book);
         }
 
         /// <summary>

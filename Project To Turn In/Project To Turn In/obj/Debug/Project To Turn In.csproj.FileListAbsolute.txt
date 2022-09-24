@@ -28,3 +28,34 @@ C:\Users\maxfl\Source\Repos\MiniKindle\Project To Turn In\Project To Turn In\obj
 C:\Users\maxfl\Source\Repos\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.exe
 C:\Users\maxfl\Source\Repos\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.pdb
 C:\Users\maxfl\Source\Repos\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project_To_Turn_In.LibraryView.resources
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\Project To Turn In.exe.config
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\Project To Turn In.exe
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\Project To Turn In.pdb
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Buffers.dll
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Memory.dll
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Text.Json.dll
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.ValueTuple.dll
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Buffers.xml
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Memory.xml
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Text.Json.xml
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\bin\Debug\System.ValueTuple.xml
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.csproj.AssemblyReference.cache
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.csproj.SuggestedBindingRedirects.cache
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project_To_Turn_In.BookView.resources
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project_To_Turn_In.LibraryView.resources
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project_To_Turn_In.Properties.Resources.resources
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.csproj.GenerateResource.cache
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.csproj.CoreCompileInputs.cache
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.csproj.CopyComplete
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.exe
+C:\Users\howel\Documents\K-State\Fall 2022\501\MiniKindle\MiniKindle\Project To Turn In\Project To Turn In\obj\Debug\Project To Turn In.pdb

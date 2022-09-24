@@ -41,9 +41,10 @@ namespace Project_To_Turn_In
             // 
             // uxNextBtn
             // 
-            this.uxNextBtn.Location = new System.Drawing.Point(442, 607);
+            this.uxNextBtn.Location = new System.Drawing.Point(589, 759);
+            this.uxNextBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uxNextBtn.Name = "uxNextBtn";
-            this.uxNextBtn.Size = new System.Drawing.Size(171, 86);
+            this.uxNextBtn.Size = new System.Drawing.Size(228, 108);
             this.uxNextBtn.TabIndex = 0;
             this.uxNextBtn.Text = "Next";
             this.uxNextBtn.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@ namespace Project_To_Turn_In
             // uxPreviousBtn
             // 
             this.uxPreviousBtn.Enabled = false;
-            this.uxPreviousBtn.Location = new System.Drawing.Point(12, 607);
+            this.uxPreviousBtn.Location = new System.Drawing.Point(16, 759);
+            this.uxPreviousBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uxPreviousBtn.Name = "uxPreviousBtn";
-            this.uxPreviousBtn.Size = new System.Drawing.Size(171, 86);
+            this.uxPreviousBtn.Size = new System.Drawing.Size(228, 108);
             this.uxPreviousBtn.TabIndex = 1;
             this.uxPreviousBtn.Text = "Previous";
             this.uxPreviousBtn.UseVisualStyleBackColor = true;
@@ -62,26 +64,31 @@ namespace Project_To_Turn_In
             // 
             // uxPgNum
             // 
-            this.uxPgNum.Location = new System.Drawing.Point(221, 638);
+            this.uxPgNum.Location = new System.Drawing.Point(295, 798);
+            this.uxPgNum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uxPgNum.Name = "uxPgNum";
-            this.uxPgNum.Size = new System.Drawing.Size(54, 26);
+            this.uxPgNum.Size = new System.Drawing.Size(72, 31);
             this.uxPgNum.TabIndex = 2;
             this.uxPgNum.ValueChanged += new System.EventHandler(this.uxPgNum_ValueChanged);
             // 
             // uxTextBox
             // 
-            this.uxTextBox.Location = new System.Drawing.Point(12, 121);
+            this.uxTextBox.Location = new System.Drawing.Point(16, 151);
+            this.uxTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.uxTextBox.MaxLength = 5000;
             this.uxTextBox.Multiline = true;
             this.uxTextBox.Name = "uxTextBox";
             this.uxTextBox.ReadOnly = true;
-            this.uxTextBox.Size = new System.Drawing.Size(601, 480);
+            this.uxTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.uxTextBox.Size = new System.Drawing.Size(800, 599);
             this.uxTextBox.TabIndex = 3;
             // 
             // uxBookMark
             // 
-            this.uxBookMark.Location = new System.Drawing.Point(309, 630);
+            this.uxBookMark.Location = new System.Drawing.Point(412, 788);
+            this.uxBookMark.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uxBookMark.Name = "uxBookMark";
-            this.uxBookMark.Size = new System.Drawing.Size(96, 63);
+            this.uxBookMark.Size = new System.Drawing.Size(128, 79);
             this.uxBookMark.TabIndex = 4;
             this.uxBookMark.Text = "BookMark";
             this.uxBookMark.UseVisualStyleBackColor = true;
@@ -89,29 +96,31 @@ namespace Project_To_Turn_In
             // 
             // uxTitleTextBox
             // 
-            this.uxTitleTextBox.Location = new System.Drawing.Point(12, 29);
+            this.uxTitleTextBox.Location = new System.Drawing.Point(16, 36);
+            this.uxTitleTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uxTitleTextBox.Multiline = true;
             this.uxTitleTextBox.Name = "uxTitleTextBox";
             this.uxTitleTextBox.ReadOnly = true;
-            this.uxTitleTextBox.Size = new System.Drawing.Size(601, 57);
+            this.uxTitleTextBox.Size = new System.Drawing.Size(800, 70);
             this.uxTitleTextBox.TabIndex = 5;
             this.uxTitleTextBox.TextChanged += new System.EventHandler(this.uxTitleTextBox_TextChanged);
             // 
             // uxBookMarked
             // 
-            this.uxBookMarked.Location = new System.Drawing.Point(508, 92);
+            this.uxBookMarked.Location = new System.Drawing.Point(677, 115);
+            this.uxBookMarked.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uxBookMarked.Multiline = true;
             this.uxBookMarked.Name = "uxBookMarked";
             this.uxBookMarked.ReadOnly = true;
-            this.uxBookMarked.Size = new System.Drawing.Size(105, 23);
+            this.uxBookMarked.Size = new System.Drawing.Size(139, 28);
             this.uxBookMarked.TabIndex = 6;
             this.uxBookMarked.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // BookView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(625, 705);
+            this.ClientSize = new System.Drawing.Size(833, 881);
             this.Controls.Add(this.uxBookMarked);
             this.Controls.Add(this.uxTitleTextBox);
             this.Controls.Add(this.uxBookMark);
@@ -119,6 +128,7 @@ namespace Project_To_Turn_In
             this.Controls.Add(this.uxPgNum);
             this.Controls.Add(this.uxPreviousBtn);
             this.Controls.Add(this.uxNextBtn);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "BookView";
             this.Text = "BookView";
             ((System.ComponentModel.ISupportInitialize)(this.uxPgNum)).EndInit();

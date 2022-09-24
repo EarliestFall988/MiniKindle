@@ -36,7 +36,16 @@ namespace Project_To_Turn_In
 
             BookController bc = new BookController();
 
-            bc.AddBook(book);
+            try
+            {
+                bc.AddBook(book);
+                bc.AddBook(bc.GenerateMockupBooks());
+
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
             Application.Run(new LibraryView(bc));
         }

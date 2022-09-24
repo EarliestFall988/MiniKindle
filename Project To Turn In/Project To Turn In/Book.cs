@@ -73,6 +73,25 @@ namespace Project_To_Turn_In
             throw new ArgumentOutOfRangeException("cannot find page with the page number " + CurrentPage);
         }
 
+        /// <summary>
+        /// Try Get the Current Page
+        /// </summary>
+        /// <param name="p">the page</param>
+        /// <returns>returns the page (boolean)</returns>
+        public bool TryGetCurrentPage(out Page p)
+        {
+            foreach(var x in Pages)
+            {
+                if(x.PageNumber == CurrentPage)
+                {
+                    p = x;
+                    return true;
+                }
+            }
+            p = null;
+            return false;
+        }
+
         public int CompareTo(Book other)
         {
             if(other == null) return 1;
