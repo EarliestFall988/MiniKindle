@@ -34,6 +34,7 @@ namespace Project_To_Turn_In
         {
             BookView bv = new BookView(bc, uxListBox.SelectedItem as Book);
             bv.Show();
+            bv.Setup();
         }
     }
 }

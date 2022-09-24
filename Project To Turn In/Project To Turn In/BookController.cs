@@ -6,6 +6,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.IO;
 using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace Project_To_Turn_In
 {
@@ -198,12 +199,20 @@ namespace Project_To_Turn_In
 
                 using (FileStream stream = File.OpenRead(bookfileLocation))
                 {
-                    var json = JsonSerializer.Deserialize<List<Book>>(stream);
+                    try
+                    {
+                        var json = JsonSerializer.Deserialize<List<Book>>(stream);
 
-                    if (json != null)
-                        return json;
-                    else
-                        return new List<Book>();
+                        if (json != null)
+                            return json;
+                        else
+                            return new List<Book>();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("There was an error opening the book files");
+                        return new List<Book>();    
+                    }
                 }
             }
             else
@@ -715,7 +724,7 @@ namespace Project_To_Turn_In
             int chars = 1500;
             string nextLine = "";
 
-            List<Page> pages = new List<Page>();   
+            List<Page> pages = new List<Page>();
 
             for (int i = 0; i < str.Length; i++)
             {

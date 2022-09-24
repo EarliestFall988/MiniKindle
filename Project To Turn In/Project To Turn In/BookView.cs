@@ -32,10 +32,19 @@ namespace Project_To_Turn_In
             InitializeComponent();
             BookController = c;
             book = b;
+        }
+
+        public void Setup()
+        {
             addTextToTextBox();
             addTitleToTextBox();
-            uxPgNum.Maximum = book.Pages.Count() -1;
+            uxPgNum.Maximum = book.Pages.Count() - 1;
             uxPgNum.Minimum = 0;
+            uxPgNum.Value = book.CurrentPage;
+
+
+            uxPreviousBtn.Enabled = book.CurrentPage > 0;
+            uxNextBtn.Enabled = book.CurrentPage < book.Pages.Count() - 1;
         }
 
         /// <summary>
@@ -52,6 +61,7 @@ namespace Project_To_Turn_In
         private void addTextToTextBox()
         {
             uxTextBox.Text = book.Pages[book.CurrentPage].Words.ToString();
+
         }
 
         /// <summary>
@@ -61,12 +71,12 @@ namespace Project_To_Turn_In
         /// <param name="e"></param>
         private void uxNextBtn_Click(object sender, EventArgs e)
         {
-            if(book.CurrentPage != book.Pages.Count() - 1)
+            if (book.CurrentPage != book.Pages.Count() - 1)
             {
                 book.CurrentPage += 1;
                 addTextToTextBox();
                 uxPreviousBtn.Enabled = true;
-                
+
                 object BookMark = new BookMark(book.CurrentPage);
                 if (book.BookMarks.Contains(BookMark))
                 {
@@ -101,7 +111,7 @@ namespace Project_To_Turn_In
 
         private void uxPreviousBtn_Click(object sender, EventArgs e)
         {
-            if(book.CurrentPage != 0)
+            if (book.CurrentPage != 0)
             {
                 book.CurrentPage -= 1;
                 addTextToTextBox();
@@ -138,14 +148,14 @@ namespace Project_To_Turn_In
         /// <param name="e"></param>
         private void uxBookMark_Click(object sender, EventArgs e)
         {
-            
-            if(uxBookMarked.Text == "")
+
+            if (uxBookMarked.Text == "")
             {
                 BookMark bm = new BookMark(book.CurrentPage);
                 book.BookMarks.Add(bm);
                 uxBookMarked.Text = "BookMarked";
 
-                
+
             }
             else
             {

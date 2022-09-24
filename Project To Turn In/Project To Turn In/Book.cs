@@ -33,13 +33,13 @@ namespace Project_To_Turn_In
         /// <summary>
         /// The current page
         /// </summary>
-        [JsonPropertyName("current-page")]
+        [JsonPropertyName("currentpage")]
         public int CurrentPage { get; set; } = 0;
 
         /// <summary>
         /// The list of bookmarks
         /// </summary>
-        [JsonPropertyName("book-marks")]
+        [JsonPropertyName("bookmarks")]
         public List<BookMark> BookMarks { get; set; } = new List<BookMark>();
 
         /// <summary>
